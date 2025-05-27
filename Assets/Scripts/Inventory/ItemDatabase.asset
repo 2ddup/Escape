@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f7385b8accffb8409d4a814c8a6dd23, type: 3}
+  m_Name: ItemDatabase
+  m_EditorClassIdentifier: 
+  items:
+  - item_id: 1
+    item_name: whitelens
+    item_type: equipment
+    quantity: 1
+    prefab_name: whitelens
+  - item_id: 2
+    item_name: redlens
+    item_type: equipment
+    quantity: 1
+    prefab_name: redlens
+  - item_id: 3
+    item_name: bluelens
+    item_type: equipment
+    quantity: 1
+    prefab_name: bluelens
+  - item_id: 4
+    item_name: Handle
+    item_type: equipment
+    quantity: 1
+    prefab_name: Truck_Handle
+  - item_id: 5
+    item_name: Wheel
+    item_type: equipment
+    quantity: 1
+    prefab_name: Truck_Wheel_AR
+  - item_id: 6
+    item_name: Door
+    item_type: equipment
+    quantity: 1
+    prefab_name: HiddenDoor
+  - item_id: 7
+    item_name: Fuel
+    item_type: used
+    quantity: 1
+    prefab_name: Fuel

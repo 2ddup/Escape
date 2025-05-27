@@ -1,0 +1,26 @@
+///스크립트 생성 일자 - #DATE#
+///스크립트 담당자 - #AUTHOR#
+///스크립트 생성 버전 - #VERSION#
+
+using UnityEngine;
+
+namespace #NAMESPACE#
+{
+
+	[CustomEditor(typeof(#TARGET#))]
+	public class #SCRIPTNAME# : Editor
+	{
+		#TARGET# targetObject;		
+		
+		void OnEnable()
+		{
+		}
+		void OnDisable()
+		{
+		}
+		
+		public override void OnInspectorGUI()
+		{
+		}
+	}
+}

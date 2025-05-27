@@ -1,0 +1,35 @@
+///스크립트 생성 일자 - #DATE#
+///스크립트 담당자 - #AUTHOR#
+///스크립트 생성 버전 - #VERSION#
+
+using UnityEngine;
+
+namespace #NAMESPACE#
+{
+	[CreateAssetMenu(fileName = "#SCRIPTNAME#", menuName = "#SCRIPTNAME#", order = 100)]
+	public class #SCRIPTNAME# : ScriptableObject
+	{
+		#region Inspector Fields
+		#endregion
+
+		#region Fields
+		#endregion
+		
+		#region Properties
+		#endregion
+
+		#region Methods
+		#endregion
+
+		#region UnityEditor Only Methods
+		#if UNITY_EDITOR
+		protected virtual void Reset()
+		{
+		}
+		protected virtual void OnValidate()
+		{
+		}
+		#endif
+		#endregion
+	}
+}

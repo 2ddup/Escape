@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scripts/Stage/ShootingRoom/GunFocus.cs.meta
+guid: 5594e2bd702f90a45bb988e8959aa2bb
+========
+guid: 7bbe6e0aa2d02b34e879d0f583882869
+>>>>>>>> origin/on_develop_LJH_08:Assets/Scripts/Interaction/Interactable/Networking/SyncGrabbable.cs.meta
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

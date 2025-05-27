@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e7f45523845b3d419632fc6e56910d9, type: 3}
+  m_Name: Flying
+  m_EditorClassIdentifier: 
+  _stateID: 2
+  _stateName: Flying
+  _stateFlag: 3
+  _annotation: "\uB09C\uB2E4 \uB0A0\uC544"
+  _maxSpeed: 6
+  _maxAcceleration: 20
+  _maxDeceleration: 0
+  _friction: 1

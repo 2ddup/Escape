@@ -1,0 +1,22 @@
+///스크립트 생성 일자 - #DATE#
+///스크립트 담당자 - #AUTHOR#
+///스크립트 생성 버전 - #VERSION#
+
+using UnityEngine;
+
+namespace #NAMESPACE#
+{
+	public class #SCRIPTNAME# : MonoBehaviour
+	{
+		void Awake()
+		{
+			CacheComponents();
+		}
+		/// <summary>
+		/// 컴퍼넌트를 캐싱
+		/// </summary>	
+		protected virtual void CacheComponents()
+		{
+		}
+	}
+}

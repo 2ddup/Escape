@@ -1,0 +1,18 @@
+///스크립트 생성 일자 - 2025 - 04 - 01
+///스크립트 담당자 - 최현규
+///스크립트 생성 버전 - 0.1.4
+
+using TempNamespace.InteractableObjects;
+using UnityEngine;
+
+namespace TempNamespace.ObjectDrag
+{
+	public interface IGrabbable : IInteractable
+	{
+		bool IsDragging {get;}
+		
+		Rigidbody rigidbody {get;}
+
+		bool Release(GameObject grabber);
+    }
+}
